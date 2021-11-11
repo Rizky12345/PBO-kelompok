@@ -2,7 +2,6 @@
 
 class kelas{
 	public $data;
-	public $execute;
 	public $kelas;
 	function __construct(){
 		$this->data = [
