@@ -1,11 +1,8 @@
 <?php
-	//Buat class 
     class byte {
     	public $angka;
         public $type;
     }
-    //Buat inheritance 
-    //turunkan class buah ke kelas pemilik 
     class hitung extends byte {
     	public function __construct ($a, $b){
                 $this->angka = $a;
@@ -29,7 +26,6 @@
     }
         } 
     }
-    //instansi objek 
     $bape = new hitung("2343", "gb");
     
 ?> 
